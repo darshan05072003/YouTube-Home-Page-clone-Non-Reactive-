@@ -1,0 +1,214 @@
+body{
+    height:1000px;
+}
+.left-section{
+    display:flex;
+    align-items:center;
+    margin-left:40px;
+}
+.right-section{
+   margin-right:50px;
+   display:flex;
+   justify-content:space-between;
+   
+}
+.middle-section{
+    border-color:gray;
+    
+}
+.box{
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-width:1px;
+}
+.sidebar{
+    position:absolute;
+    
+    left:0;
+    bottom:0;
+    top:55px;
+    display:flex;
+    flex-direction:columns;
+    position:fixed;
+    width:100px;
+}
+
+.sidebar-logos{
+    margin-top:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    justify-content:space-between;
+    margin-left:2px;
+}
+.icons{
+    width:25px;
+    height:25px;
+}
+.Home-icon{
+   text-align:center;
+
+}
+.Home-icon:hover{
+    background-color:gray;
+}
+
+.Explore-icon{
+    text-align:center;
+ }
+ .Explore-icon:hover{
+    background-color:gray;
+}
+
+ .Subscriptions-icon{
+    text-align:center;
+ }
+ .Subscriptions-icon:hover{
+    background-color:gray;
+}
+ .Originals-icon{
+    text-align:center;
+ }
+ .Originals-icon:hover{
+    background-color:gray;
+}
+ .YouTube-Music-icon{
+    text-align:center;
+ }
+ .YouTube-Music-icon:hover{
+    background-color:gray;
+}
+ .Library-icon{
+    text-align:center;
+ }
+ .Library-icon:hover{
+    background-color:gray;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    vertical-align:top;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:white;
+    z-index:0;
+    
+}
+.microphone{
+    margin-left:8px;
+    border-radius:25px;
+    border:none;
+}
+.search{
+    margin-left:-1px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 20px;
+    border-width:1px;
+}
+.middle-section{
+  display:flex;
+  margin:0;
+}
+.box{
+    width:500px;
+}
+input::placeholder{
+    font-size:20px;
+    display:flex;
+    flex:1;
+}
+.search-icon{
+   width:30px;
+   margin-left:0;
+}
+.box{
+    height:40px;
+}
+.microphone-icon{
+   width:20px;
+}
+.hamburger-icon{
+    width:25px;
+    margin-right:20px;
+}
+.Youtube-icon{
+    width:130px;
+    margin-top:0;
+}
+.create-icon{
+    width:30px;
+    margin-right:25px;
+}
+.notification-icon{
+    width:30px;
+    margin-right:25px;
+}
+.profile-icon{
+    width:40px;
+    border-radius:40px;
+}
+.right-section{
+    display:flex;
+    justify-content:space-between;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top:80px;
+    column-gap:20px;
+    row-gap:20px;
+    margin-left:100px;
+    background-color:rgb(248, 248, 248);
+    font-family:Roboto,Arial;
+    padding-top:100px;
+    padding-left:20px;
+}
+@media(max-width:300px){
+    .content{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.image{
+    width:100%; 
+    border-radius:10px;
+}
+.channel-info{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+.icon{
+    width:40px;
+    border-radius:20px;
+    margin-top:15px;
+    margin-left:3px;
+    display:flex;
+    justify-content:center;
+}
+.info{
+    width:300px;
+    font-weight:bold;
+}
+.youtube-info{
+    font-size:15px;
+    color:grey;
+    line-height: 6px;
+}
+.right-section-icon{
+    position:relative;
+
+}
+.number{
+    position:absolute;
+    background-color:red;
+    width:20px;
+    height:20px;
+    text-align:center;
+    border-radius:10px;
+    top:0;
+    left:0;
+    margin-top:-5px;
+}
